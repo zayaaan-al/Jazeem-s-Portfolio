@@ -31,9 +31,39 @@ export const projectsData = [
     },
     {
         id: 6,
-        src: "/images/projects/work4.jpg",
+        src: "/images/thumbnails/NIHAL.jpeg",
         category: "Thumbnails",
-        title: "Brand Identity and Motion Design"
+        title: "Vlog Influencer Thumbnail Design"
+    },
+     {
+        id: 7,
+        src: "/images/thumbnails/20251231_170336.png",
+        category: "Thumbnails",
+        title: "Vlog Influencer Thumbnail Design"
+    },
+     {
+        id: 8,
+        src: "/images/thumbnails/20260216_221008.jpg.jpeg",
+        category: "Thumbnails",
+        title: "Vlog Influencer Thumbnail Design"
+    },
+     {
+        id: 9,
+        src: "/images/thumbnails/20260222_211120.jpg.jpeg",
+        category: "Thumbnails",
+        title: "Vlog Influencer Thumbnail Design"
+    },
+     {
+        id: 10,
+        src: "/images/thumbnails/20260223_165345.png",
+        category: "Thumbnails",
+        title: "Vlog Influencer Thumbnail Design"
+    },
+     {
+        id: 11,
+        src: "/images/thumbnails/IMG_5704.JPG.jpeg",
+        category: "Thumbnails",
+        title: "Vlog Influencer Thumbnail Design"
     },
 
 ]
