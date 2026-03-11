@@ -2,13 +2,13 @@ export const projectsData = [
     {
         id: 1,
         src: "/images/projects/work1.jpg",
-        category: "Video Editing",
+        category: "Videography & Video Editing",
         title: "Mobile Application Design",
     },
     {
         id: 2,
         src: "/images/projects/work2.jpg",
-        category: "Videography",
+        category: "Videography & Video Editing",
         title: "Website Makeup Design",
     },
     {

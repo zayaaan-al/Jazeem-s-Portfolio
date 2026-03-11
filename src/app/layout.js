@@ -6,8 +6,8 @@ import CallToAction from "@/components/sections/callToAction";
 import Footer from "@/components/sections/footer";
 
 export const metadata = {
-  title: "Bentos - Personal Portfolio Next.js Template",
-  description: "Bentos - Personal Portfolio React Template",
+  title: "Jazeem - Personal Portfolio ",
+  description: "showcasing my work and projects as a designer. Explore my portfolio to see my design skills and creativity in action.",
 };
 
 export default function RootLayout({ children }) {
