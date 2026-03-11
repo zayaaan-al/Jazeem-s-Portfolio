@@ -71,8 +71,15 @@ const Header = () => {
 
                         </div>
                         <div className="menu-btns">
-                            <Link href="/contact" className="theme-btn">Hire Me <RiShakeHandsLine size={15} /> </Link>
-                        </div>
+  <a 
+    href="https://wa.me/918075289709" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="theme-btn"
+  >
+    Hire Me <RiShakeHandsLine size={15} />
+  </a>
+</div>
                     </div>
                 </div>
             </div>
