@@ -13,14 +13,14 @@ const CallToAction = () => {
                             <div className="about-content-part call-to-action-part text-center">
 
                                 <h2>
-                                    Ready to bring your ideas to life through video?
+                                    Let’s Create Something Amazing Together
                                 </h2>
 
                                 <p>
-                                    Let’s create engaging visual content together.
-                                    I’m available for freelance projects, collaborations,
-                                    and full-time opportunities in video editing,
-                                    content creation, and media production.
+                                    I’m available for freelance projects and collaborations in
+                                    video production, photography, poster design, and YouTube
+                                    thumbnail creation. Let’s work together to create engaging
+                                    visual content for your brand, social media, or business.
                                 </p>
 
                                 <div className="hero-btns">
@@ -30,7 +30,7 @@ const CallToAction = () => {
                                         rel="noopener noreferrer"
                                         className="theme-btn"
                                     >
-                                        Let's Talk <i><RiWhatsappLine size={16} /></i>
+                                        Contact on WhatsApp <i><RiWhatsappLine size={16} /></i>
                                     </a>
                                 </div>
 
