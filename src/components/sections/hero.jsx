@@ -18,14 +18,13 @@ const Hero = () => {
       <div className="container">
         <div className="row">
 
-          {/* PROFILE IMAGE */}
           <div className="col-lg-4">
             <SlideUp>
               <div className="about-image-part">
 
                 <Image
                   src="/images/about/profile.png"
-                  alt="Jazeem M - Video Editor"
+                  alt="Jazeem M"
                   width={350}
                   height={350}
                 />
@@ -33,38 +32,26 @@ const Hero = () => {
                 <h2>Jazeem M</h2>
 
                 <p>
-                  Video Production | Photography | Poster Design | YouTube Thumbnails
+                  Video Production | Photography | Poster Design | Thumbnails
                 </p>
 
                 <div className="about-social text-center">
                   <ul>
 
                     <li>
-                      <a
-                        href="https://wa.me/918075289709"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
+                      <a href="https://wa.me/918075289709" target="_blank">
                         <RiWhatsappFill size={20} />
                       </a>
                     </li>
 
                     <li>
-                      <a
-                        href="https://www.instagram.com/jazeem_mhmd"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
+                      <a href="https://www.instagram.com/jazeem_mhmd" target="_blank">
                         <RiInstagramLine size={20} />
                       </a>
                     </li>
 
                     <li>
-                      <a
-                        href="https://www.linkedin.com/in/jazeem-m/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
+                      <a href="https://www.linkedin.com/in/jazeem-m/" target="_blank">
                         <RiLinkedinFill size={20} />
                       </a>
                     </li>
@@ -77,7 +64,6 @@ const Hero = () => {
           </div>
 
 
-          {/* HERO CONTENT */}
           <div className="col-lg-8">
             <SlideUp>
               <div className="about-content-part">
@@ -85,14 +71,11 @@ const Hero = () => {
                 <p>Hello There!</p>
 
                 <h2>
-                  I’m Jazeem, a creative visual content specialist producing
-                  high-quality video production, photography, poster designs,
-                  and YouTube thumbnails for brands and social media creators.
+                  I create engaging videos, photography, posters,
+                  and thumbnails for brands and creators.
                 </h2>
 
-                <p>
-                  BCA Graduate — University of Calicut
-                </p>
+                <p>BCA Graduate — University of Calicut</p>
 
                 <div className="adress-field">
                   <ul>
@@ -104,11 +87,7 @@ const Hero = () => {
                 </div>
 
                 <div className="hero-btns">
-                  <a
-                    href="/JAZEEM_M.pdf"
-                    download
-                    className="theme-btn"
-                  >
+                  <a href="/JAZEEM_M.pdf" download className="theme-btn">
                     Download CV <i><RiDownloadLine size={16} /></i>
                   </a>
                 </div>
