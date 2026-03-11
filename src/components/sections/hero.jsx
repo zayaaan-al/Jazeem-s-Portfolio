@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import Link from 'next/link'
+import Image from 'next/image'
 import {
   RiWhatsappFill,
   RiInstagramLine,
@@ -23,12 +23,17 @@ const Hero = () => {
             <SlideUp>
               <div className="about-image-part">
 
-                <img src="/images/about/profile.png" alt="Jazeem M" />
+                <Image
+                  src="/images/about/profile.png"
+                  alt="Jazeem M - Video Editor"
+                  width={350}
+                  height={350}
+                />
 
                 <h2>Jazeem M</h2>
 
                 <p>
-                  Video Editor | Content Creator | Media Operator
+                  Video Production | Photography | Poster Design | YouTube Thumbnails
                 </p>
 
                 <div className="about-social text-center">
@@ -46,7 +51,7 @@ const Hero = () => {
 
                     <li>
                       <a
-                        href="https://www.instagram.com/jazeem_mhmd?igsh=MXAydmdmYmpqZmZleg%3D%3D&utm_source=qr"
+                        href="https://www.instagram.com/jazeem_mhmd"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -80,13 +85,13 @@ const Hero = () => {
                 <p>Hello There!</p>
 
                 <h2>
-                  I’m Jazeem, a passionate Video Editor and Media Operator
-                  creating cinematic visuals, social media content,
-                  and engaging digital stories.
+                  I’m Jazeem, a creative visual content specialist producing
+                  high-quality video production, photography, poster designs,
+                  and YouTube thumbnails for brands and social media creators.
                 </h2>
 
                 <p>
-                  BCA Graduate – University of Calicut
+                  BCA Graduate — University of Calicut
                 </p>
 
                 <div className="adress-field">
