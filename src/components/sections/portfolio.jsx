@@ -44,8 +44,10 @@ const Portfolio = ({ className }) => {
                             <SlideUp>
                                 <div className="section-title text-center">
                                     <h2>Works & Projects</h2>
-                                    <p>Check out some of my design projects, meticulously crafted with love and dedication,
-                                        each one reflecting the passion and soul I poured into every detail.</p>
+<p>
+Explore some of my video editing projects featuring cinematic storytelling,
+social media content, and professional media production.
+</p>
                                 </div>
                             </SlideUp>
                         </div>
