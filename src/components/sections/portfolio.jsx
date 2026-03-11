@@ -44,10 +44,10 @@ const Portfolio = ({ className }) => {
                             <SlideUp>
                                 <div className="section-title text-center">
                                     <h2>Works & Projects</h2>
-<p>
-Explore some of my video editing projects featuring cinematic storytelling,
-social media content, and professional media production.
-</p>
+                                    <p>
+                                        Explore some of my creative work including video production, photography,
+                                        poster design, and YouTube thumbnails crafted for brands and creators.
+                                    </p>
                                 </div>
                             </SlideUp>
                         </div>
@@ -76,7 +76,7 @@ const Card = ({ category, title, src, animationClass, id }) => {
             <SlideUp delay={id}>
                 <div className="project-item style-two">
                     <div className="project-image">
-                        <Image width={383} height={249} sizes='100vw' style={{width:"100%", height:"auto"}} src={src} alt="Project" />
+                        <Image width={383} height={249} sizes='100vw' style={{ width: "100%", height: "auto" }} src={src} alt="Project" />
                         <Link href="/single-project" className="details-btn"><RiArrowRightUpLine /> </Link>
                     </div>
                     <div className="project-content">
