@@ -1,5 +1,5 @@
 import React from 'react'
-import { RiGlobalFill, RiPantoneFill, RiQuillPenLine } from '@remixicon/react'
+import { RiVideoFill, RiMovie2Fill, RiCameraFill } from '@remixicon/react'
 import SlideUp from '@/utlits/animations/slideUp'
 
 const ServiceGrid = () => {
@@ -12,15 +12,33 @@ const ServiceGrid = () => {
                             <SlideUp>
                                 <div className="section-title text-center">
                                     <p>Services</p>
-                                    <h2>Quality Services</h2>
+                                    <h2>Video Production Services</h2>
                                 </div>
                             </SlideUp>
                         </div>
                     </div>
+
                     <div className="row">
-                        <Card id={1} icon={<RiGlobalFill size={60} />} title={"Brand Identity Design"} description={"Bentos gives you the blocks & kits you need to create a true website within minutes."} />
-                        <Card id={2} icon={<RiQuillPenLine size={60} />} title={"Website Design"} description={"Bentos gives you the blocks & kits you need to create a true website within minutes."} />
-                        <Card id={3} icon={<RiPantoneFill size={60} />} title={"Application Design"} description={"Bentos gives you the blocks & kits you need to create a true website within minutes."} />
+                        <Card
+                            id={1}
+                            icon={<RiVideoFill size={60} />}
+                            title={"Video Editing"}
+                            description={"Professional video editing for YouTube, social media, and promotional content using tools like DaVinci Resolve and CapCut."}
+                        />
+
+                        <Card
+                            id={2}
+                            icon={<RiMovie2Fill size={60} />}
+                            title={"Content Creation"}
+                            description={"Creating engaging short-form and long-form content for brands, influencers, and digital marketing campaigns."}
+                        />
+
+                        <Card
+                            id={3}
+                            icon={<RiCameraFill size={60} />}
+                            title={"Live Event Media"}
+                            description={"LED wall operation, live playback, screen mapping, and media management for large-scale live events and productions."}
+                        />
                     </div>
                 </div>
             </div>
