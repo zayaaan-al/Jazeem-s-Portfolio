@@ -42,10 +42,10 @@ const Header = () => {
                             <div className="logo">
                                 <Link href="/">
                                     <Image
-                                        width={120}
-                                        height={40}
+                                        width={180}
+                                        height={50}
                                         sizes="100vw"
-                                        src="/images/logo.png"
+                                        src="/images/LOGO (1).png"
                                         alt="Logo"
                                         title="Logo"
                                     />
@@ -66,7 +66,7 @@ const Header = () => {
                                                 width={75}
                                                 height={25}
                                                 sizes="100vw"
-                                                src="/images/logo.png"
+                                                src="/images/LOGO (1).png"
                                                 alt="Logo"
                                                 title="Logo"
                                             />
