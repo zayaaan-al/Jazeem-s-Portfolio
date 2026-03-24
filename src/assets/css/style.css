@@ -2168,6 +2168,19 @@ ul.extra-skills li i {
 * 12.CLIENTS CSS STYLE
 * ----------------------------------------------------------------------------------------
 */
+.company-list img {
+  height: 60px;
+  width: auto;
+  margin: 0 25px;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .company-list img {
+    height: 40px;
+    margin: 0 15px;
+  }
+}
 .client-logo-area {
     padding-top: 20px;
 }
