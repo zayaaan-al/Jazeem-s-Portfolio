@@ -45,39 +45,46 @@ export const projectsData = [
   },
 
   {
-    id: 8,
-    src: "/images/thumbnails/NIHAL.jpeg",
-    category: "Thumbnails",
-    title: "YouTube Vlog Thumbnail Design",
-  },
-  {
-    id: 9,
-    src: "/images/thumbnails/20251231_170336.png",
-    category: "Thumbnails",
-    title: "Influencer Thumbnail Design",
-  },
-  {
-    id: 10,
-    src: "/images/thumbnails/20260216_221008.jpg.jpeg",
-    category: "Thumbnails",
-    title: "Gaming Video Thumbnail",
-  },
-  {
-    id: 11,
-    src: "/images/thumbnails/20260222_211120.jpg.jpeg",
-    category: "Thumbnails",
-    title: "YouTube Content Thumbnail",
-  },
-  {
-    id: 12,
-    src: "/images/thumbnails/20260223_165345.png",
-    category: "Thumbnails",
-    title: "Travel Vlog Thumbnail",
-  },
-  {
-    id: 13,
-    src: "/images/thumbnails/IMG_5704.JPG.jpeg",
-    category: "Thumbnails",
-    title: "Lifestyle Vlog Thumbnail",
-  }
+  id: 8,
+  src: "/images/thumbnails/NIHAL.jpeg",
+  category: "Thumbnails",
+  title: "Lifestyle Vlog Thumbnail – Nihal Hameed",
+  link: "https://www.youtube.com/@Nihalkkaaaa",
+},
+{
+  id: 13,
+  src: "/images/thumbnails/IMG_5704.JPG.jpeg",
+  category: "Thumbnails",
+  title: "Lifestyle Vlog Thumbnail - Supervaava",
+  link: "https://www.youtube.com/@Supervaava",
+},
+{
+  id: 9,
+  src: "/images/thumbnails/15.jpg",
+  category: "Thumbnails",
+  title: "Travel & Adventure Vlog Thumbnail - Backpacker Arunima",
+  link: "https://www.youtube.com/@backpackerarunima2466",
+},
+{
+  id: 10,
+  src: "/images/thumbnails/Artboard 12.jpg",
+  category: "Thumbnails",
+  title: "Family Lifestyle Vlog Thumbnail - Basil Vlogs",
+  link: "https://www.youtube.com/@basilvlogss",
+},
+{
+  id: 11,
+  src: "/images/thumbnails/Artboard 52.jpg",
+  category: "Thumbnails",
+  title: "Lifestyle Travel Thumbnail - Nabeel Ahammed K",
+  link: "https://www.youtube.com/@nabeel_ahammed.k",
+},
+{
+  id: 12,
+  src: "/images/thumbnails/Artboard 55.jpg",
+  category: "Thumbnails",
+  title: "Lifestyle Travel Vlog Thumbnail - Arxhu Vlogs",
+  link: "https://www.youtube.com/@arxhuvlogs",
+},
+ 
 ]

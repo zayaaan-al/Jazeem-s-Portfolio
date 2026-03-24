@@ -32,6 +32,9 @@ const PartnersMarquee = () => {
                                 <img src="/images/client-logos/slide 2.jpeg" alt="Client 2" />
                             </a>
 
+                            <a href="https://www.youtube.com/@nabeel_ahammed.k" target="_blank" rel="noopener noreferrer">
+                                <img src="/images/client-logos/slide 7.jpeg" alt="Client 4" />
+                            </a>
                            
 
                             <a href="https://www.youtube.com/@arxhuvlogs" target="_blank" rel="noopener noreferrer">

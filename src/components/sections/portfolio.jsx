@@ -58,8 +58,9 @@ const Portfolio = ({ className }) => {
                         </ul>
                     </SlideUp>
                     <div className="row project-masonry-active overflow-hidden">
-                        {filteredProjects.map(({ category, id, src, title }) => <Card key={id} id={id} category={category} src={src} title={title} animationClass={animationClass} />)}
-
+{filteredProjects.map(({ category, id, src, title, link }) =>
+  <Card key={id} id={id} category={category} src={src} title={title} link={link} animationClass={animationClass} />
+)}
                     </div>
                 </div>
             </div>
@@ -70,19 +71,37 @@ const Portfolio = ({ className }) => {
 export default Portfolio
 
 
-const Card = ({ category, title, src, animationClass, id }) => {
+const Card = ({ category, title, src, animationClass, id, link }) => {
     return (
         <div className={`col-lg-4 col-md-6 item branding game ${animationClass}`}>
             <SlideUp delay={id}>
                 <div className="project-item style-two">
+
                     <div className="project-image">
-                        <Image width={383} height={249} sizes='100vw' style={{ width: "100%", height: "auto" }} src={src} alt="Project" />
-                        <Link href="/single-project" className="details-btn"><RiArrowRightUpLine /> </Link>
+                        <Image
+                            width={383}
+                            height={249}
+                            sizes='100vw'
+                            style={{ width: "100%", height: "auto" }}
+                            src={src}
+                            alt={title}
+                        />
+
+                        <a
+                            href={link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="details-btn"
+                        >
+                            <RiArrowRightUpLine />
+                        </a>
                     </div>
+
                     <div className="project-content">
                         <span className="sub-title">{category}</span>
                         <h3>{title}</h3>
                     </div>
+
                 </div>
             </SlideUp>
         </div>
