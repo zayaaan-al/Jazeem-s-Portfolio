@@ -48,6 +48,7 @@ const Header = () => {
                                         src="/images/LOGO (1).png"
                                         alt="Logo"
                                         title="Logo"
+                                          priority
                                         
                                     />
                                 </Link>
@@ -70,6 +71,7 @@ const Header = () => {
                                                 src="/images/LOGO (1).png"
                                                 alt="Logo"
                                                 title="Logo"
+                                                  priority
                                             />
                                         </Link>
                                     </div>

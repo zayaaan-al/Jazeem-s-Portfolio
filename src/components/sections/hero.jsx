@@ -23,11 +23,12 @@ const Hero = () => {
               <div className="about-image-part">
 
                 <Image
-                  src="/images/about/main image.jpeg"
-                  alt="Jazeem M"
-                  width={350}
-                  height={350}
-                />
+  src="/images/about/main image.jpeg"
+  width={400}
+  height={400}
+  style={{ width: "100%", height: "auto" }} // ✅ important
+  alt="About"
+/>
 
                 <h2>Jazeem M</h2>
 
