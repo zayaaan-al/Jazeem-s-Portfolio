@@ -23,7 +23,7 @@ const Hero = () => {
               <div className="about-image-part">
 
                 <Image
-                  src="/images/about/profile.png"
+                  src="/images/about/main image.jpeg"
                   alt="Jazeem M"
                   width={350}
                   height={350}
