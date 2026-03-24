@@ -2169,21 +2169,25 @@ ul.extra-skills li i {
 * ----------------------------------------------------------------------------------------
 */
 .company-list img {
-  height: 60px;
+  height: 80px;
   width: auto;
-  margin: 0 25px;
+  margin: 0 30px;
   object-fit: contain;
+  filter: none;      /* removes grayscale */
+  opacity: 1;        /* full color */
 }
 
 @media (max-width: 768px) {
   .company-list img {
-    height: 40px;
+    height: 55px;
     margin: 0 15px;
   }
 }
+
 .client-logo-area {
-    padding-top: 20px;
+  padding-top: 20px;
 }
+
 
 .client-logo-wrap {
     display: -webkit-box;
