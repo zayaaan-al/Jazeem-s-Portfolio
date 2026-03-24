@@ -2187,7 +2187,18 @@ ul.extra-skills li i {
 .client-logo-area {
   padding-top: 20px;
 }
+.company-list a {
+  display: inline-block;
+}
 
+.company-list img {
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.company-list img:hover {
+  transform: scale(1.1);
+}
 
 .client-logo-wrap {
     display: -webkit-box;
