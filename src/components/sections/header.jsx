@@ -48,6 +48,7 @@ const Header = () => {
                                         src="/images/LOGO (1).png"
                                         alt="Logo"
                                         title="Logo"
+                                        
                                     />
                                 </Link>
                             </div>

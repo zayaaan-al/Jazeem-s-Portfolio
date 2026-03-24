@@ -16,6 +16,7 @@ const getRandomAnimation = () => {
 const Portfolio = ({ className }) => {
     const [category, setCategory] = useState('All');
     const [animationClass, setAnimationClass] = useState('');
+    const [activeVideo, setActiveVideo] = useState(null); // ✅ added
 
     const handleCategoryClick = (item) => {
         setCategory(item)
@@ -30,10 +31,10 @@ const Portfolio = ({ className }) => {
             filteredCategory.push(category)
         }
     })
-    // ------ filter unique category
 
-    const filteredProjects = category === 'All' ? projectsData : projectsData.filter(image => image.category === category);
-
+    const filteredProjects = category === 'All'
+        ? projectsData
+        : projectsData.filter(image => image.category === category);
 
     return (
         <section id="portfolio" className={`projects-area ${className}`}>
@@ -52,18 +53,53 @@ const Portfolio = ({ className }) => {
                             </SlideUp>
                         </div>
                     </div>
+
                     <SlideUp>
                         <ul className="project-filter filter-btns-one justify-content-left pb-15">
-                            {filteredCategory.map((item, id) => <li key={id} onClick={() => handleCategoryClick(item)} className={item === category ? "current" : ""}>{item}</li>)}
+                            {filteredCategory.map((item, id) => (
+                                <li
+                                    key={id}
+                                    onClick={() => handleCategoryClick(item)}
+                                    className={item === category ? "current" : ""}
+                                >
+                                    {item}
+                                </li>
+                            ))}
                         </ul>
                     </SlideUp>
+
                     <div className="row project-masonry-active overflow-hidden">
-{filteredProjects.map(({ category, id, src, title, link }) =>
-  <Card key={id} id={id} category={category} src={src} title={title} link={link} animationClass={animationClass} />
-)}
+                        {filteredProjects.map(({ category, id, src, title, video }) => (
+                            <Card
+                                key={id}
+                                id={id}
+                                category={category}
+                                src={src}
+                                title={title}
+                                video={video} // ✅ changed
+                                animationClass={animationClass}
+                                setActiveVideo={setActiveVideo} // ✅ added
+                            />
+                        ))}
                     </div>
                 </div>
             </div>
+
+            {/* 🎬 VIDEO MODAL */}
+            {activeVideo && (
+                <div className="video-modal" onClick={() => setActiveVideo(null)}>
+                    <div className="video-modal-content" onClick={(e) => e.stopPropagation()}>
+                        <iframe
+                            src={activeVideo}
+                            width="100%"
+                            height="400"
+                            allow="autoplay"
+                        />
+                        <button className="close-btn" onClick={() => setActiveVideo(null)}>✕</button>
+                    </div>
+                </div>
+            )}
+
         </section>
     )
 }
@@ -71,7 +107,9 @@ const Portfolio = ({ className }) => {
 export default Portfolio
 
 
-const Card = ({ category, title, src, animationClass, id, link }) => {
+// ================= CARD =================
+
+const Card = ({ category, title, src, animationClass, id, video, setActiveVideo }) => {
     return (
         <div className={`col-lg-4 col-md-6 item branding game ${animationClass}`}>
             <SlideUp delay={id}>
@@ -88,10 +126,12 @@ const Card = ({ category, title, src, animationClass, id, link }) => {
                         />
 
                         <a
-                            href={link}
-                            target="_blank"
-                            rel="noopener noreferrer"
+                            onClick={(e) => {
+                                e.preventDefault();
+                                setActiveVideo(video);
+                            }}
                             className="details-btn"
+                            style={{ cursor: "pointer" }}
                         >
                             <RiArrowRightUpLine />
                         </a>
