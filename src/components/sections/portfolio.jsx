@@ -69,18 +69,19 @@ const Portfolio = ({ className }) => {
                     </SlideUp>
 
                     <div className="row project-masonry-active overflow-hidden">
-                        {filteredProjects.map(({ category, id, src, title, video }) => (
-                            <Card
-                                key={id}
-                                id={id}
-                                category={category}
-                                src={src}
-                                title={title}
-                                video={video} // ✅ changed
-                                animationClass={animationClass}
-                                setActiveVideo={setActiveVideo} // ✅ added
-                            />
-                        ))}
+                        {filteredProjects.map(({ category, id, src, title, video, link }) => (
+  <Card
+    key={id}
+    id={id}
+    category={category}
+    src={src}
+    title={title}
+    video={video}
+    link={link}   // ✅ added
+    animationClass={animationClass}
+    setActiveVideo={setActiveVideo}
+  />
+))}
                     </div>
                 </div>
             </div>
@@ -109,7 +110,7 @@ export default Portfolio
 
 // ================= CARD =================
 
-const Card = ({ category, title, src, animationClass, id, video, setActiveVideo }) => {
+const Card = ({ category, title, src, animationClass, id, video, setActiveVideo , link}) => {
     return (
         <div className={`col-lg-4 col-md-6 item branding game ${animationClass}`}>
             <SlideUp delay={id}>
@@ -125,16 +126,23 @@ const Card = ({ category, title, src, animationClass, id, video, setActiveVideo 
                             alt={title}
                         />
 
-                        <a
-                            onClick={(e) => {
-                                e.preventDefault();
-                                setActiveVideo(video);
-                            }}
-                            className="details-btn"
-                            style={{ cursor: "pointer" }}
-                        >
-                            <RiArrowRightUpLine />
-                        </a>
+                       <a
+  onClick={(e) => {
+    e.preventDefault();
+
+    if (video) {
+      // 🎬 open modal
+      setActiveVideo(video);
+    } else if (link) {
+      // 🔗 redirect
+      window.open(link, "_blank");
+    }
+  }}
+  className="details-btn"
+  style={{ cursor: "pointer" }}
+>
+  <RiArrowRightUpLine />
+</a>
                     </div>
 
                     <div className="project-content">
