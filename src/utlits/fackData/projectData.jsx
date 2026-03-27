@@ -66,55 +66,54 @@ export const projectsData = [
 
   {
     id: 11,
-    src: "/images/projects/Work5.jpg",
+    src: "/images/projects/IMG_6679.JPEG",
     category: "Photography",
     title: "Creative Photography Project",
+    link: "https://drive.google.com/drive/folders/14_Y8w-Pt6NLG0wD59U-0LWhhnFW-LQ9r?usp=sharing",
+    
+  },
+  {
+    id: 24,
+    src: "/images/projects/IMG_6680.JPEG",
+    category: "Photography",
+    title: "Creative Photography Project",
+    link: "https://drive.google.com/drive/folders/14_Y8w-Pt6NLG0wD59U-0LWhhnFW-LQ9r?usp=sharing",
+    
+  },
+  {
+    id: 25,
+    src: "/images/projects/IMG_6681.JPEG",
+    category: "Photography",
+    title: "Creative Photography Project",
+    link: "https://drive.google.com/drive/folders/14_Y8w-Pt6NLG0wD59U-0LWhhnFW-LQ9r?usp=sharing",
+    
+  },
+  {
+    id: 26,
+    src: "/images/projects/IMG_6683.JPEG",
+    category: "Photography",
+    title: "Creative Photography Project",
+    link: "https://drive.google.com/drive/folders/14_Y8w-Pt6NLG0wD59U-0LWhhnFW-LQ9r?usp=sharing",
+    
+  },
+  {
+    id: 27,
+    src: "/images/projects/IMG_6685.JPEG",
+    category: "Photography",
+    title: "Creative Photography Project",
+    link: "https://drive.google.com/drive/folders/14_Y8w-Pt6NLG0wD59U-0LWhhnFW-LQ9r?usp=sharing",
+    
+  },
+  {
+    id: 28,
+    src: "/images/projects/IMG_6701.JPEG",
+    category: "Photography",
+    title: "Creative Photography Project",
+    link: "https://drive.google.com/drive/folders/14_Y8w-Pt6NLG0wD59U-0LWhhnFW-LQ9r?usp=sharing",
     
   },
 
-  {
-    id: 12,
-    src: "/images/projects/Candiac_Global_Japan.png",
-    category: "Poster Design",
-    title: "Study Abroad Promotion Poster",
-    link: "https://drive.google.com/drive/folders/1SFJw7O7FUOECvstGnZLS2G45ZxoPEEY7?usp=sharing",
-  },
-  {
-    id: 13,
-    src: "/images/projects/IMG_6675.JPEG",
-    category: "Poster Design",
-    title: "Product Advertisement Poster",
-    link: "https://drive.google.com/drive/folders/1SFJw7O7FUOECvstGnZLS2G45ZxoPEEY7?usp=sharing",
-  },
-  {
-    id: 15,
-    src: "/images/projects/IMG_6677.JPEG",
-    category: "Poster Design",
-    title: "Travel Package Promotional Poster",
-    link: "https://drive.google.com/drive/folders/1SFJw7O7FUOECvstGnZLS2G45ZxoPEEY7?usp=sharing",
-  },
-  {
-    id: 14,
-    src: "/images/projects/IMG_6676.JPEG",
-    category: "Poster Design",
-    title: "Educational Course Promotion Poster",
-    link: "https://drive.google.com/drive/folders/1SFJw7O7FUOECvstGnZLS2G45ZxoPEEY7?usp=sharing",
-  },
-  {
-    id: 16,
-    src: "/images/projects/KOTTAKKAL_TRADERS_RAMADAN_CREATIVE.png",
-    category: "Poster Design",
-    title: "Ramadan Campaign Poster",
-    link: "https://drive.google.com/drive/folders/1SFJw7O7FUOECvstGnZLS2G45ZxoPEEY7?usp=sharing",
-  },
   
-  {
-    id: 17,
-    src: "/images/projects/Skywide resorts.png",
-    category: "Poster Design",
-    title: "Resort Booking Promotional Poster",
-    link: "https://drive.google.com/drive/folders/1SFJw7O7FUOECvstGnZLS2G45ZxoPEEY7?usp=sharing",
-  },
 
   {
   id: 18,
@@ -158,5 +157,47 @@ export const projectsData = [
   title: "Lifestyle Travel Vlog Thumbnail - Arxhu Vlogs",
   link: "https://www.youtube.com/@arxhuvlogs",
 },
- 
+ {
+    id: 12,
+    src: "/images/projects/Candiac_Global_Japan.png",
+    category: "Poster Design",
+    title: "Study Abroad Promotion Poster",
+    link: "https://drive.google.com/drive/folders/1SFJw7O7FUOECvstGnZLS2G45ZxoPEEY7?usp=sharing",
+  },
+  {
+    id: 13,
+    src: "/images/projects/IMG_6675.JPEG",
+    category: "Poster Design",
+    title: "Product Advertisement Poster",
+    link: "https://drive.google.com/drive/folders/1SFJw7O7FUOECvstGnZLS2G45ZxoPEEY7?usp=sharing",
+  },
+  {
+    id: 15,
+    src: "/images/projects/IMG_6677.JPEG",
+    category: "Poster Design",
+    title: "Travel Package Promotional Poster",
+    link: "https://drive.google.com/drive/folders/1SFJw7O7FUOECvstGnZLS2G45ZxoPEEY7?usp=sharing",
+  },
+  {
+    id: 14,
+    src: "/images/projects/IMG_6676.JPEG",
+    category: "Poster Design",
+    title: "Educational Course Promotion Poster",
+    link: "https://drive.google.com/drive/folders/1SFJw7O7FUOECvstGnZLS2G45ZxoPEEY7?usp=sharing",
+  },
+  {
+    id: 16,
+    src: "/images/projects/KOTTAKKAL_TRADERS_RAMADAN_CREATIVE.png",
+    category: "Poster Design",
+    title: "Ramadan Campaign Poster",
+    link: "https://drive.google.com/drive/folders/1SFJw7O7FUOECvstGnZLS2G45ZxoPEEY7?usp=sharing",
+  },
+  
+  {
+    id: 17,
+    src: "/images/projects/Skywide resorts.png",
+    category: "Poster Design",
+    title: "Resort Booking Promotional Poster",
+    link: "https://drive.google.com/drive/folders/1SFJw7O7FUOECvstGnZLS2G45ZxoPEEY7?usp=sharing",
+  },
 ]
