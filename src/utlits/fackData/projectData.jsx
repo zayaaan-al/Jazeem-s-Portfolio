@@ -162,35 +162,35 @@ export const projectsData = [
     src: "/images/projects/Candiac_Global_Japan.png",
     category: "Poster Design",
     title: "Study Abroad Promotion Poster",
-    link: "https://drive.google.com/drive/folders/1SFJw7O7FUOECvstGnZLS2G45ZxoPEEY7?usp=sharing",
+    link: "https://drive.google.com/file/d/1VKvOoePLY2sX7kXItGCnzYBRE9r7eyOk/view?usp=sharing",
   },
   {
     id: 13,
     src: "/images/projects/IMG_6675.JPEG",
     category: "Poster Design",
     title: "Product Advertisement Poster",
-    link: "https://drive.google.com/drive/folders/1SFJw7O7FUOECvstGnZLS2G45ZxoPEEY7?usp=sharing",
+    link: "https://drive.google.com/file/d/1pv-cw5G6XOeUJnwpST7lfYDLqGELs-8y/view?usp=sharing",
   },
   {
     id: 15,
     src: "/images/projects/IMG_6677.JPEG",
     category: "Poster Design",
     title: "Travel Package Promotional Poster",
-    link: "https://drive.google.com/drive/folders/1SFJw7O7FUOECvstGnZLS2G45ZxoPEEY7?usp=sharing",
+    link: "https://drive.google.com/file/d/1GSTOagSORJUEkRM3yC4Gx_xwaWLceVpa/view?usp=sharing",
   },
   {
     id: 14,
     src: "/images/projects/IMG_6676.JPEG",
     category: "Poster Design",
     title: "Educational Course Promotion Poster",
-    link: "https://drive.google.com/drive/folders/1SFJw7O7FUOECvstGnZLS2G45ZxoPEEY7?usp=sharing",
+    link: "https://drive.google.com/file/d/1UTmZ2F3WlncEsp-rOJ3qUg4eO5RNtu7y/view?usp=sharing",
   },
   {
     id: 16,
     src: "/images/projects/KOTTAKKAL_TRADERS_RAMADAN_CREATIVE.png",
     category: "Poster Design",
     title: "Ramadan Campaign Poster",
-    link: "https://drive.google.com/drive/folders/1SFJw7O7FUOECvstGnZLS2G45ZxoPEEY7?usp=sharing",
+    link: "https://drive.google.com/file/d/1itKJypcRb35IWUkoQNvUu7H_2j2kFcCy/view?usp=sharing",
   },
   
   {
@@ -198,6 +198,6 @@ export const projectsData = [
     src: "/images/projects/Skywide resorts.png",
     category: "Poster Design",
     title: "Resort Booking Promotional Poster",
-    link: "https://drive.google.com/drive/folders/1SFJw7O7FUOECvstGnZLS2G45ZxoPEEY7?usp=sharing",
+    link: "https://drive.google.com/file/d/1F50YWgvxwApSY8rokTpFS2S3mZlAoxX8/view?usp=sharing",
   },
 ]
