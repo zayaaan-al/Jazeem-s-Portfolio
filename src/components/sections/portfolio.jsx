@@ -13,6 +13,13 @@ const getRandomAnimation = () => {
     return animations[randomIndex];
 };
 
+const categoryLinks = {
+    "Video Production": "https://drive.google.com/drive/folders/1dnpeDyWmlK9WKA5QLSpkkD6K8aGNGscv?usp=drive_link",
+    "Thumbnails": "https://drive.google.com/drive/folders/1Whm9SZOsmnroRKoVirRIrD6zmUiVt8_t?usp=sharing",
+    "Poster Design": "https://drive.google.com/drive/folders/1SFJw7O7FUOECvstGnZLS2G45ZxoPEEY7?usp=sharing",
+    "Photography": "https://drive.google.com/drive/folders/14_Y8w-Pt6NLG0wD59U-0LWhhnFW-LQ9r?usp=sharing",
+};
+
 const Portfolio = ({ className }) => {
     const [category, setCategory] = useState('All');
     const [animationClass, setAnimationClass] = useState('');
@@ -69,22 +76,39 @@ const Portfolio = ({ className }) => {
                     </SlideUp>
 
                     <div className="row project-masonry-active overflow-hidden">
+
                         {filteredProjects.map(({ category, id, src, title, video, link }) => (
-  <Card
-    key={id}
-    id={id}
-    category={category}
-    src={src}
-    title={title}
-    video={video}
-    link={link}   // ✅ added
-    animationClass={animationClass}
-    setActiveVideo={setActiveVideo}
-  />
-))}
+                            <Card
+                                key={id}
+                                id={id}
+                                category={category}
+                                src={src}
+                                title={title}
+                                video={video}
+                                link={link}   // ✅ added
+                                animationClass={animationClass}
+                                setActiveVideo={setActiveVideo}
+                            />
+                        ))}
                     </div>
+
+                    {/* ✅ VIEW MORE BUTTON */}
+                    {category !== "All" && categoryLinks[category] && (
+                        <div className="text-center mt-30">
+                            <a
+                                href={categoryLinks[category]}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="theme-btn"
+                            >
+                                View More
+                            </a>
+                        </div>
+                    )}
                 </div>
+
             </div>
+
 
             {/* 🎬 VIDEO MODAL */}
             {activeVideo && (
@@ -110,7 +134,7 @@ export default Portfolio
 
 // ================= CARD =================
 
-const Card = ({ category, title, src, animationClass, id, video, setActiveVideo , link}) => {
+const Card = ({ category, title, src, animationClass, id, video, setActiveVideo, link }) => {
     return (
         <div className={`col-lg-4 col-md-6 item branding game ${animationClass}`}>
             <SlideUp delay={id}>
@@ -126,23 +150,23 @@ const Card = ({ category, title, src, animationClass, id, video, setActiveVideo 
                             alt={title}
                         />
 
-                       <a
-  onClick={(e) => {
-    e.preventDefault();
+                        <a
+                            onClick={(e) => {
+                                e.preventDefault();
 
-    if (video) {
-      // 🎬 open modal
-      setActiveVideo(video);
-    } else if (link) {
-      // 🔗 redirect
-      window.open(link, "_blank");
-    }
-  }}
-  className="details-btn"
-  style={{ cursor: "pointer" }}
->
-  <RiArrowRightUpLine />
-</a>
+                                if (video) {
+                                    // 🎬 open modal
+                                    setActiveVideo(video);
+                                } else if (link) {
+                                    // 🔗 redirect
+                                    window.open(link, "_blank");
+                                }
+                            }}
+                            className="details-btn"
+                            style={{ cursor: "pointer" }}
+                        >
+                            <RiArrowRightUpLine />
+                        </a>
                     </div>
 
                     <div className="project-content">
