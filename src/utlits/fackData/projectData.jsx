@@ -68,48 +68,48 @@ export const projectsData = [
     id: 11,
     src: "/images/projects/IMG_6679.JPEG",
     category: "Photography",
-    title: "Creative Photography Project",
-    link: "https://drive.google.com/drive/folders/14_Y8w-Pt6NLG0wD59U-0LWhhnFW-LQ9r?usp=sharing",
+    title: "Candid Event Photography",
+    link: "https://drive.google.com/file/d/1ttXJbAS3COWWl5gRLi5-mBCNSWxCVxzP/view?usp=sharing",
     
   },
   {
     id: 24,
     src: "/images/projects/IMG_6680.JPEG",
     category: "Photography",
-    title: "Creative Photography Project",
-    link: "https://drive.google.com/drive/folders/14_Y8w-Pt6NLG0wD59U-0LWhhnFW-LQ9r?usp=sharing",
+    title: "Automotive Photography",
+    link: "https://drive.google.com/file/d/1NcfXTFR1462GdKPSfRL8pddQU9oQ0n4M/view?usp=sharing",
     
   },
   {
     id: 25,
     src: "/images/projects/IMG_6681.JPEG",
     category: "Photography",
-    title: "Creative Photography Project",
-    link: "https://drive.google.com/drive/folders/14_Y8w-Pt6NLG0wD59U-0LWhhnFW-LQ9r?usp=sharing",
+    title: "Baby Portrait Photography",
+    link: "https://drive.google.com/file/d/1t9biN7ENblJSW6M4BW4Bb_dTEOmgscJS/view?usp=sharing",
     
   },
   {
     id: 26,
     src: "/images/projects/IMG_6683.JPEG",
     category: "Photography",
-    title: "Creative Photography Project",
-    link: "https://drive.google.com/drive/folders/14_Y8w-Pt6NLG0wD59U-0LWhhnFW-LQ9r?usp=sharing",
+    title: "Newborn Baby Photography",
+    link: "https://drive.google.com/file/d/1AJcGCitHNjv6Sjesk_kZ7PXZIJW-nntN/view?usp=sharing",
     
   },
   {
     id: 27,
     src: "/images/projects/IMG_6685.JPEG",
     category: "Photography",
-    title: "Creative Photography Project",
-    link: "https://drive.google.com/drive/folders/14_Y8w-Pt6NLG0wD59U-0LWhhnFW-LQ9r?usp=sharing",
+    title: "Dental Clinic Interior Photography",
+    link: "https://drive.google.com/file/d/17ufwA9DlzaOpoEKwPJdlc2MgGNDFqJ-n/view?usp=sharing",
     
   },
   {
     id: 28,
     src: "/images/projects/IMG_6701.JPEG",
     category: "Photography",
-    title: "Creative Photography Project",
-    link: "https://drive.google.com/drive/folders/14_Y8w-Pt6NLG0wD59U-0LWhhnFW-LQ9r?usp=sharing",
+    title: "Bridal Portrait Photography",
+    link: "https://drive.google.com/file/d/1onRlblHDEcWvQyCTZ2n4LK7gKl7Yz2zn/view?usp=sharing",
     
   },
 
