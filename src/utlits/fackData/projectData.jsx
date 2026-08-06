@@ -155,7 +155,7 @@ export const projectsData = [
   src: "/images/thumbnails/Artboard 55.jpg",
   category: "Thumbnails",
   title: "Lifestyle Travel Vlog Thumbnail - Arxhu Vlogs",
-  link: "https://www.youtube.com/@arxhuvlogs/videos",
+  link: "https://www.youtube.com/@arxhuvlogs/videos", 
 },
  {
     id: 12,

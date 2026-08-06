@@ -23,7 +23,7 @@ const Hero = () => {
               <div className="about-image-part">
 
                 <Image
-  src="/images/about/main image.jpeg"
+  src="/images/about/WhatsApp Image 2026-08-06 at 8.56.28 PM.jpeg"
   width={400}
   height={400}
   style={{ width: "100%", height: "auto" }} // ✅ important
