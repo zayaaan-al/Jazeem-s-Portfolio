@@ -26,7 +26,7 @@ const ContactOption = () => {
                             <h2>Phone</h2>
                             <p>
                                 <a href="tel:+918075289709">
-                                    +91 8075 289 709
+                                    +971 554112680
                                 </a>
                             </p>
                         </div>

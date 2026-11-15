@@ -25,7 +25,7 @@ const CallToAction = () => {
 
                                 <div className="hero-btns">
                                     <a
-                                        href="https://wa.me/918075289709"
+                                        href="https://wa.me/971554112680"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="theme-btn"

@@ -48,8 +48,8 @@ const Header = () => {
                                         src="/images/LOGO (1).png"
                                         alt="Logo"
                                         title="Logo"
-                                          priority
-                                        
+                                        priority
+
                                     />
                                 </Link>
                             </div>
@@ -71,7 +71,7 @@ const Header = () => {
                                                 src="/images/LOGO (1).png"
                                                 alt="Logo"
                                                 title="Logo"
-                                                  priority
+                                                priority
                                             />
                                         </Link>
                                     </div>
@@ -105,15 +105,15 @@ const Header = () => {
 
                                     {/* MOBILE HIRE ME BUTTON */}
                                     <div className="mobile-hire-btn text-center mt-3 d-lg-none">
-    <a
-        href="https://wa.me/918075289709"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="theme-btn"
-    >
-        Hire Me <RiShakeHandsLine size={15} />
-    </a>
-</div>
+                                        <a
+                                            href="https://wa.me/971554112680"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="theme-btn"
+                                        >
+                                            Hire Me <RiShakeHandsLine size={15} />
+                                        </a>
+                                    </div>
 
                                 </div>
                             </nav>
@@ -122,7 +122,7 @@ const Header = () => {
                         {/* DESKTOP HIRE ME BUTTON */}
                         <div className="menu-btns">
                             <a
-                                href="https://wa.me/918075289709"
+                                href="https://wa.me/971554112680"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="theme-btn"
