@@ -40,7 +40,7 @@ const Hero = () => {
                   <ul>
 
                     <li>
-                      <a href="https://wa.me/918075289709" target="_blank">
+                      <a href="https://wa.me/971554112680" target="_blank">
                         <RiWhatsappFill size={20} />
                       </a>
                     </li>
